@@ -28,16 +28,12 @@ In this project, we will predict building abandonment (“blight”) based on a 
 # 5. Evaluation of the best model
 
 Confusion Matrix and Statistics
-| Prediction    | Not Blight    | Yes Blight  |
-| ------------- |:-------------:| -----:|
+
+| Prediction    | Not Blight  | Yes Blight  |
+| ----------- |:-----------:| -----------:|
 | Not Blight    | 127 | 35 |
 | Yes Blight    | 141 | 237 |
 
-
-           Reference
- Prediction   N   Y
-          N 127  35
-          Y 141 237                              
                 Accuracy : 0.6741          
                 95% CI : (0.6327, 0.7135)
      No Information Rate : 0.5037          
