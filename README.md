@@ -28,6 +28,12 @@ In this project, we will predict building abandonment (“blight”) based on a 
 # 5. Evaluation of the best model
 
 Confusion Matrix and Statistics
+| Prediction    | Not Blight    | Yes Blight  |
+| ------------- |:-------------:| -----:|
+| Not Blight    | 127 | 35 |
+| Yes Blight    | 141 | 237 |
+
+
            Reference
  Prediction   N   Y
           N 127  35
