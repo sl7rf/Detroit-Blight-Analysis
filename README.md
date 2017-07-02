@@ -12,7 +12,7 @@ In this project, we will predict building abandonment (“blight”) based on a 
 - Built interactive exploratory map to visualize violations, 311 calls, crimes and blight permits distributions on the map
 
 # 2. Feature selection/extraction #
-- Remove redundant features based on common sense and selecte basic features for each incident dataset at the building level, e.g., # of violations, violation code/type, violation fees, # of 311 calls and ratings, 311 call issue type, # of crimes and crime types...
+- By experience and intuition, we designed feature sets that were expected to have a strong correlation with the target, e.g., # of violations, violation code/type, violation fees, # of 311 calls and ratings, 311 call issue type, # of crimes and crime types...
 
 # 3. Generating a list of building #
 - Combine the incident datasets where each dataset is aggregated by unique addresses
